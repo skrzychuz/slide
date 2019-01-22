@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="projector" max_length="40" name="x_306552_slide_pro_projector" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="rentallist" max_length="1024" name="u_glide_list_3" reference="x_306552_slide_pro_rental" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Rental List" max_length="1024" name="u_renal_list" reference="x_306552_slide_pro_rental" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="model" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="status" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="number" max_length="40" name="u_string_3" type="string"/>
+    </element>
+</database>

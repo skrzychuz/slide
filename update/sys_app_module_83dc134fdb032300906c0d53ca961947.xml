@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Slide Projectors">04d29f87db032300906c0d53ca961963</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>rentals</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_306552_slide_pro_rental</name>
+        <order/>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_306552_slide_pro.rental_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-21 21:31:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83dc134fdb032300906c0d53ca961947</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All Rentals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
+        <sys_update_name>sys_app_module_83dc134fdb032300906c0d53ca961947</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-22 20:39:12</sys_updated_on>
+        <timeline_page/>
+        <title>All Rentals</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

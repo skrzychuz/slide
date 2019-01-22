@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_string_1" label="model" language="en" table="x_306552_slide_pro_projector">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <help/>
+            <hint/>
+            <label>model</label>
+            <language>en</language>
+            <name>x_306552_slide_pro_projector</name>
+            <plural>models</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 21:30:26</sys_created_on>
+            <sys_id>17ac5f0fdb032300906c0d53ca9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>model</sys_name>
+            <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
+            <sys_update_name>sys_documentation_x_306552_slide_pro_projector_u_string_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 21:30:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
