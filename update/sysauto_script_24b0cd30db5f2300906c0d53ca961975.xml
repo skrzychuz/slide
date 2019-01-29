@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Projector Notification2</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-01-26 20:38:19</run_start>
+        <run_time>1970-01-01 15:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var rightNow = new GlideDateTime();
+
+var gr = new GlideRecord('x_306552_slide_pro_rental');
+gr.addQuery('u_glide_date_4', '>=', rightNow);
+gr.query();
+
+while(gr.next()){
+	
+	s.eventQueue('x_306552_slide_pro.slide.projector regis',current,current.email,gs.getUserName());
+	
+	
+	
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-26 21:13:43</sys_created_on>
+        <sys_id>24b0cd30db5f2300906c0d53ca961975</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Projector Notification2</sys_name>
+        <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
+        <sys_update_name>sysauto_script_24b0cd30db5f2300906c0d53ca961975</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-26 22:11:26</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

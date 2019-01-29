@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Slide Projector Reminder</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:00:10</run_period>
+        <run_start>2019-01-27 20:38:19</run_start>
+        <run_time>1970-01-01 16:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var gr = new GlideRecord('x_306552_slide_pro_rental');
+var rightNow = new GlideDateTime();
+var twoDays = new GlideDateTime();
+twoDays.addDaysLocalTime(2);
+
+gr.addQuery('u_status', 'active');
+gr.query();
+
+while(gr.next()){
+	var endDate = gr.u_glide_date_4;
+	
+	//change status rental on 'overdue'
+	//send notfications to users of overdue rental
+	if(endDate <= rightNow) {
+		gr.u_status = 'overdue';
+		gs.eventQueue('x_306552_slide_pro.slide.projector regis',gr,gr.u_reference_1.sys_id ,gr.number);
+		gr.u_status = 'overdue';
+	}
+	
+	//send notifications to users two days before the deadline.
+	if(endDate == twoDays.getLocalDate()) {
+		gs.eventQueue('x_306552_slide_pro.2 days reminder',gr,gr.u_reference_1.sys_id ,gr.number);
+		
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-26 22:01:03</sys_created_on>
+        <sys_id>eca3d93cdb5f2300906c0d53ca9619dd</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>Slide Projector Reminder</sys_name>
+        <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
+        <sys_update_name>sysauto_script_eca3d93cdb5f2300906c0d53ca9619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-29 19:57:22</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

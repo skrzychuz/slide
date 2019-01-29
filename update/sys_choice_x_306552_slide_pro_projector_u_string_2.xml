@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_2" table="x_306552_slide_pro_projector" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Avaible</label>
+            <language>en</language>
+            <name>x_306552_slide_pro_projector</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-23 19:43:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02475df3db032300906c0d53ca96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-23 19:43:04</sys_updated_on>
+            <value>avaible</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rented</label>
+            <language>en</language>
+            <name>x_306552_slide_pro_projector</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-23 19:43:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82475df3db032300906c0d53ca961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-23 19:43:04</sys_updated_on>
+            <value>rented</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Broken</label>
+            <language>en</language>
+            <name>x_306552_slide_pro_projector</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-23 19:43:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02475df3db032300906c0d53ca961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-23 19:43:04</sys_updated_on>
+            <value>broken</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reserved</label>
+            <language>en</language>
+            <name>x_306552_slide_pro_projector</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-23 19:43:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e475df3db032300906c0d53ca961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-23 19:43:04</sys_updated_on>
+            <value>reserved</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_2</element>
+            <name>x_306552_slide_pro_projector</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-23 19:43:04</sys_created_on>
+            <sys_id>8a475df3db032300906c0d53ca96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_string_2</sys_name>
+            <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
+            <sys_update_name>sys_choice_x_306552_slide_pro_projector_u_string_2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-23 19:43:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

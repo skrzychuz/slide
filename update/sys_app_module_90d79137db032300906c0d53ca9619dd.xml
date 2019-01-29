@@ -11,31 +11,31 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>projectors</mobile_title>
+        <mobile_title>My Rentals</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_306552_slide_pro_projector</name>
+        <name>x_306552_slide_pro_rental</name>
         <order/>
-        <override_menu_roles>true</override_menu_roles>
-        <query/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>&amp;sysparm_fixed_query=u_reference_1=javascript:gs.getUserID();</query>
         <report/>
-        <roles>admin</roles>
+        <roles>x_306552_slide_pro.projector_user,x_306552_slide_pro.rental_user,admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-21 20:47:20</sys_created_on>
+        <sys_created_on>2019-01-23 19:47:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4cd29f87db032300906c0d53ca961965</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>All Slide Projectors</sys_name>
+        <sys_id>90d79137db032300906c0d53ca9619dd</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>My Rentals</sys_name>
         <sys_overrides/>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
-        <sys_update_name>sys_app_module_4cd29f87db032300906c0d53ca961965</sys_update_name>
+        <sys_update_name>sys_app_module_90d79137db032300906c0d53ca9619dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-25 21:59:45</sys_updated_on>
+        <sys_updated_on>2019-01-25 22:00:23</sys_updated_on>
         <timeline_page/>
-        <title>All Slide Projectors</title>
+        <title>My Rentals</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -6,10 +6,10 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>status</column_label>
+        <column_label>Status</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-21 21:30:26</sys_created_on>
         <sys_id>57ac9f0fdb032300906c0d53ca9619c6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>status</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
         <sys_update_name>sys_dictionary_x_306552_slide_pro_projector_u_string_2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-21 21:30:26</sys_updated_on>
+        <sys_updated_on>2019-01-25 21:28:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

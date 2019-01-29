@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="projector" language="en" table="x_306552_slide_pro_projector">
+    <sys_documentation element="" label="Projectors" language="en" table="x_306552_slide_pro_projector">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>projector</label>
+            <label>Projectors</label>
             <language>en</language>
             <name>x_306552_slide_pro_projector</name>
-            <plural>projectors</plural>
+            <plural>Projectors</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-01-21 20:47:21</sys_created_on>
             <sys_id>d8d29f87db032300906c0d53ca961996</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>projector</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Projectors</sys_name>
             <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
             <sys_policy/>
             <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
             <sys_update_name>sys_documentation_x_306552_slide_pro_projector__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-21 20:47:21</sys_updated_on>
+            <sys_updated_on>2019-01-23 21:12:55</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -2,18 +2,48 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_306552_slide_pro_projector" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_id</element>
-            <list_id display_value="x_306552_slide_pro_projector" element="NULL" name="x_306552_slide_pro_projector" parent="NULL" relationship="NULL" sys_domain="global" view="1f272152bc002300aadb875973a34b56">485423c3db432300906c0d53ca961925</list_id>
+            <element>number</element>
+            <list_id display_value="x_306552_slide_pro_projector" element="NULL" name="x_306552_slide_pro_projector" parent="NULL" relationship="NULL" sys_domain="global" view="1f272152bc002300aadb875973a34b56">123bd5b7db032300906c0d53ca961973</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-21 22:03:47</sys_created_on>
-            <sys_id>805423c3db432300906c0d53ca961926</sys_id>
+            <sys_created_on>2019-01-23 20:00:17</sys_created_on>
+            <sys_id>d63bd5b7db032300906c0d53ca961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-21 22:03:47</sys_updated_on>
+            <sys_updated_on>2019-01-23 20:00:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_string_2</element>
+            <list_id display_value="x_306552_slide_pro_projector" element="NULL" name="x_306552_slide_pro_projector" parent="NULL" relationship="NULL" sys_domain="global" view="1f272152bc002300aadb875973a34b56">123bd5b7db032300906c0d53ca961973</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-23 20:00:17</sys_created_on>
+            <sys_id>5a3bd5b7db032300906c0d53ca961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-23 20:00:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_string_1</element>
+            <list_id display_value="x_306552_slide_pro_projector" element="NULL" name="x_306552_slide_pro_projector" parent="NULL" relationship="NULL" sys_domain="global" view="1f272152bc002300aadb875973a34b56">123bd5b7db032300906c0d53ca961973</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-23 20:00:18</sys_created_on>
+            <sys_id>da3bd5b7db032300906c0d53ca961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-23 20:00:18</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +57,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-21 22:03:47</sys_created_on>
+            <sys_created_on>2019-01-23 20:00:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>485423c3db432300906c0d53ca961925</sys_id>
+            <sys_id>123bd5b7db032300906c0d53ca961973</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_306552_slide_pro_projector</sys_name>
             <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
@@ -38,7 +68,7 @@
             <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
             <sys_update_name>sys_ui_list_x_306552_slide_pro_projector_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-21 22:03:47</sys_updated_on>
+            <sys_updated_on>2019-01-23 20:00:17</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">1f272152bc002300aadb875973a34b56</view>
             <view_name/>

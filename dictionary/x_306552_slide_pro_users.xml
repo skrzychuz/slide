@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_user" label="Users" max_length="40" name="x_306552_slide_pro_users" type="collection"/>
-</database>

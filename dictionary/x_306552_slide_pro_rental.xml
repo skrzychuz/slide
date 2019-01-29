@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="All Rentals" max_length="40" name="x_306552_slide_pro_rental" type="collection">
+    <element label="Rentals" max_length="40" name="x_306552_slide_pro_rental" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
-            <choice/>
-        </element>
-        <element label="rent start" max_length="40" name="u_glide_date_3" type="glide_date"/>
-        <element label="rent end" max_length="40" name="u_glide_date_4" type="glide_date"/>
-        <element label="UserID" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
-        <element label="projectorID" max_length="32" name="u_reference_2" reference="x_306552_slide_pro_projector" type="reference"/>
+        <element label="Rent start" mandatory="true" max_length="40" name="u_glide_date_3" type="glide_date"/>
+        <element label="Rent end" mandatory="true" max_length="40" name="u_glide_date_4" type="glide_date"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="UserID" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="ProjectorID" mandatory="true" max_length="32" name="u_reference_2" reference="x_306552_slide_pro_projector" type="reference"/>
         <element label="Return" max_length="40" name="u_return" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Awaiting Approval" label="Status" max_length="40" name="u_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive="true" inactive_on_update="true" label="Active - Overdue" sequence="0" value="active - overdue"/>
                 <element inactive="true" inactive_on_update="true" label="Avaible" sequence="0" value="avaible"/>
-                <element inactive_on_update="false" label="Active - Overdue" sequence="1" value="active - overdue"/>
-                <element inactive_on_update="false" label="Reservation" sequence="2" value="avreservation"/>
-                <element inactive_on_update="false" label="Closed" sequence="3" value="closed"/>
+                <element inactive="true" inactive_on_update="true" label="Waiting For Approve" sequence="0" value="waiting for approve"/>
+                <element inactive_on_update="false" label="Overdue" sequence="1" value="overdue"/>
+                <element inactive_on_update="false" label="Closed" sequence="2" value="closed"/>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="3" value="Awaiting Approval"/>
+                <element inactive_on_update="false" label="Reservation" sequence="4" value="avreservation"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Note" max_length="40" name="u_string_3" type="string"/>

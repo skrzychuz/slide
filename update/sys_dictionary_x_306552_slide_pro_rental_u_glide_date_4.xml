@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>rent end</column_label>
+        <column_label>Rent end</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">glide_date</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_306552_slide_pro_rental</name>
         <next_element/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-21 21:37:49</sys_created_on>
         <sys_id>a35edf4fdb032300906c0d53ca961953</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>rent end</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Rent end</sys_name>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
         <sys_update_name>sys_dictionary_x_306552_slide_pro_rental_u_glide_date_4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-21 21:37:49</sys_updated_on>
+        <sys_updated_on>2019-01-25 22:19:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
