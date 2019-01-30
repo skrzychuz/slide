@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_306552_slide_pro_projectorflag" label="projectorFlag" language="en" table="sys_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_306552_slide_pro_projectorflag</element>
+            <help/>
+            <hint/>
+            <label>projectorFlag</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <plural>projectorFlags</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 12:05:35</sys_created_on>
+            <sys_id>f0b1bbf1db1b2300906c0d53ca961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>projectorFlag</sys_name>
+            <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
+            <sys_update_name>sys_documentation_sys_user_x_306552_slide_pro_projectorflag_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 12:05:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

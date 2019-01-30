@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_306552_slide_pro_rental" version="2" view="RPT07056dc6db1f2300906c0d53ca9619d7">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_reference_1.name</element>
+            <list_id display_value="x_306552_slide_pro_rental" element="NULL" name="x_306552_slide_pro_rental" parent="NULL" relationship="NULL" sys_domain="global" view="1b05610adb1f2300906c0d53ca9619e5">e108218adb1f2300906c0d53ca961988</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 20:42:33</sys_created_on>
+            <sys_id>a908218adb1f2300906c0d53ca961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 20:42:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_glide_date_3</element>
+            <list_id display_value="x_306552_slide_pro_rental" element="NULL" name="x_306552_slide_pro_rental" parent="NULL" relationship="NULL" sys_domain="global" view="1b05610adb1f2300906c0d53ca9619e5">e108218adb1f2300906c0d53ca961988</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 20:42:33</sys_created_on>
+            <sys_id>2d08218adb1f2300906c0d53ca961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 20:42:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_glide_date_4</element>
+            <list_id display_value="x_306552_slide_pro_rental" element="NULL" name="x_306552_slide_pro_rental" parent="NULL" relationship="NULL" sys_domain="global" view="1b05610adb1f2300906c0d53ca9619e5">e108218adb1f2300906c0d53ca961988</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 20:42:33</sys_created_on>
+            <sys_id>ad08218adb1f2300906c0d53ca961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 20:42:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_reference_2.u_string_1</element>
+            <list_id display_value="x_306552_slide_pro_rental" element="NULL" name="x_306552_slide_pro_rental" parent="NULL" relationship="NULL" sys_domain="global" view="1b05610adb1f2300906c0d53ca9619e5">e108218adb1f2300906c0d53ca961988</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 20:42:33</sys_created_on>
+            <sys_id>2108218adb1f2300906c0d53ca961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 20:42:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_reference_2.number</element>
+            <list_id display_value="x_306552_slide_pro_rental" element="NULL" name="x_306552_slide_pro_rental" parent="NULL" relationship="NULL" sys_domain="global" view="1b05610adb1f2300906c0d53ca9619e5">e108218adb1f2300906c0d53ca961988</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 20:42:33</sys_created_on>
+            <sys_id>a108218adb1f2300906c0d53ca961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 20:42:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_306552_slide_pro_rental</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 20:42:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e108218adb1f2300906c0d53ca961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_306552_slide_pro_rental</sys_name>
+            <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
+            <sys_update_name>sys_ui_list_x_306552_slide_pro_rental_RPT07056dc6db1f2300906c0d53ca9619d7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 20:42:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt07056dc6db1f2300906c0d53ca9619d7" name="RPT07056dc6db1f2300906c0d53ca9619d7">1b05610adb1f2300906c0d53ca9619e5</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
