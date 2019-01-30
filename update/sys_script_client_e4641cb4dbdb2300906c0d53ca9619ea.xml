@@ -14,20 +14,20 @@
    if (isLoading || newValue === '') 
       return;
    
-	var milisecToDay = 1000/60/60/24;
+	var milisecToDay = 86400000;
 	var date_start = getDateFromFormat(g_form.getValue('u_glide_date_3'), 'yyyy-MM-dd');
 	var date_end = getDateFromFormat(newValue, 'yyyy-MM-dd');
 	var milisec = date_end-date_start;
  	var day = milisec/milisecToDay;
 	
-	while(g_form.getValue('u_glide_date_3') == "") {
-		g_form.setDisabled('u_glide_date_4', true);
-	}
-	if(day>7)
-		alert('Maximum time limit for rental shall be seven days');
+// 	while(g_form.getValue('u_glide_date_3') == "") {
+// 		g_form.setDisabled('u_glide_date_4', true);
+// 	}
+	jslog("DAYSS" + day);
+	if(day>=7) {
+		alert('Maximum day limit for rental is seven days');
 		g_form.setValue('u_glide_date_4',"");
-
-   
+	}   
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e4641cb4dbdb2300906c0d53ca9619ea</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>7 days limit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
         <sys_update_name>sys_script_client_e4641cb4dbdb2300906c0d53ca9619ea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-27 11:56:28</sys_updated_on>
+        <sys_updated_on>2019-01-30 11:54:22</sys_updated_on>
         <table>x_306552_slide_pro_rental</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_306552_slide_pro_rental</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_306552_slide_pro_rental">u_reference_1VALCHANGES^EQ<item endquery="false" field="u_reference_1" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>mmedasdgaegw</p>]]></message>
+        <name>checkheck check</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	gs.info("RUUUUUUUUUUULE ", current);
+	var sysid = current.getValue(sys_id);
+	gs.info("RUUUUUUUUUUULE ", sysid);
+	var gr = new GlideRecord('x_306552_slide_pro_rental.u_reference_1');
+	// 	var userSysId = this.getParameter('sysparm_sys_userID');
+	
+	gr.addQuery('u_status', 'active');
+	gr.addQuery('u_status', 'overdue');
+	gr.query();
+	
+	while(gr.next()){
+		jslog("PETLAAAA = " + newValue);
+		
+		if(gr.u_reference_1.sys_id == sysid) {
+			return true;
+		}
+	}
+	return false;
+	
+		
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 10:11:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fe65bf1dbd72300906c0d53ca9619d1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>checkheck check</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
+        <sys_update_name>sys_script_7fe65bf1dbd72300906c0d53ca9619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 10:39:27</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=7fe65bf1dbd72300906c0d53ca9619d1"/>
+</record_update>
