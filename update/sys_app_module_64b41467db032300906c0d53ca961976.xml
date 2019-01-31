@@ -15,17 +15,17 @@
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_306552_slide_pro_projector</name>
         <order/>
-        <override_menu_roles>false</override_menu_roles>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
-        <roles>admin</roles>
+        <roles>x_306552_slide_pro.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-22 20:14:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>64b41467db032300906c0d53ca961976</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Add Slide Projector</sys_name>
         <sys_overrides/>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
         <sys_update_name>sys_app_module_64b41467db032300906c0d53ca961976</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-25 21:59:27</sys_updated_on>
+        <sys_updated_on>2019-01-30 21:29:04</sys_updated_on>
         <timeline_page/>
         <title>Add Slide Projector</title>
         <uncancelable>false</uncancelable>

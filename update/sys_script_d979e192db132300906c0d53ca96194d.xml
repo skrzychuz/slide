@@ -7,7 +7,7 @@
         <action_query>false</action_query>
         <action_update>false</action_update>
         <active>false</active>
-        <add_message>true</add_message>
+        <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
@@ -15,13 +15,11 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_306552_slide_pro_rental">u_reference_1VALCHANGES^EQ<item endquery="false" field="u_reference_1" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter_condition>
+        <filter_condition/>
         <is_rest>false</is_rest>
-        <message><![CDATA[<p>mmedasdgaegw</p>]]></message>
-        <name>checkheck check</name>
-        <order>100</order>
+        <message/>
+        <name>Only One</name>
+        <order>90</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -30,45 +28,40 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var projector = current.u_reference_2.getRefRecord();
+	abort(projector);
+	gs.error("PROJECTORRRRRRRR" + projector);
+	gs.error("PROJECTOR");
+// var projectorSysId = projector.sys_id;
+
+// var rec = new GlideRecord('x_306552_slide_pro_projector');
+// rec.addQuery('sys_id', '=', projectorSysId);
+// rec.query();
+// while(rec.next()) {
 	
-	gs.info("RUUUUUUUUUUULE ", current);
-	var sysid = current.getValue(sys_id);
-	gs.info("RUUUUUUUUUUULE ", sysid);
-	var gr = new GlideRecord('x_306552_slide_pro_rental.u_reference_1');
-	// 	var userSysId = this.getParameter('sysparm_sys_userID');
-	
-	gr.addQuery('u_status', 'active');
-	gr.addQuery('u_status', 'overdue');
-	gr.query();
-	
-	while(gr.next()){
-		jslog("PETLAAAA = " + newValue);
-		
-		if(gr.u_reference_1.sys_id == sysid) {
-			return true;
-		}
-	}
-	return false;
-	
-		
+// 	rec.setValue('u_string_2', "rented");
+// 	rec.update();
+
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-30 10:11:30</sys_created_on>
+        <sys_created_on>2019-01-31 15:29:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>7fe65bf1dbd72300906c0d53ca9619d1</sys_id>
+        <sys_id>d979e192db132300906c0d53ca96194d</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name>checkheck check</sys_name>
+        <sys_name>Only One</sys_name>
         <sys_overrides/>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
-        <sys_update_name>sys_script_7fe65bf1dbd72300906c0d53ca9619d1</sys_update_name>
+        <sys_update_name>sys_script_d979e192db132300906c0d53ca96194d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-30 10:39:27</sys_updated_on>
+        <sys_updated_on>2019-01-31 22:39:21</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=7fe65bf1dbd72300906c0d53ca9619d1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d979e192db132300906c0d53ca96194d"/>
 </record_update>

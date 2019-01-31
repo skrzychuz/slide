@@ -21,7 +21,7 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message><![CDATA[<p><span style="color: #ff0000; font-size: 10pt;">You can rent Slide Projector at the earliest from Today</span></p>]]></message>
-        <name>Start Date from now</name>
+        <name>Start Date From Now</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -41,15 +41,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8cb2ebb9dbd72300906c0d53ca96195c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>Start Date from now</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Start Date From Now</sys_name>
         <sys_overrides/>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
         <sys_update_name>sys_script_8cb2ebb9dbd72300906c0d53ca96195c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-30 11:55:35</sys_updated_on>
+        <sys_updated_on>2019-01-30 21:23:07</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

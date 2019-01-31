@@ -16,16 +16,17 @@
         <name>x_306552_slide_pro_projector</name>
         <order/>
         <override_menu_roles>true</override_menu_roles>
-        <query/>
+        <query>&amp;sysparm_fixed_query=u_owned_by=javascript:gs.getUser().getCompanyID();&#13;
+                                                                     </query>
         <report/>
-        <roles>admin</roles>
+        <roles>x_306552_slide_pro.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-21 20:47:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4cd29f87db032300906c0d53ca961965</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>All Slide Projectors</sys_name>
         <sys_overrides/>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
@@ -33,7 +34,7 @@
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
         <sys_update_name>sys_app_module_4cd29f87db032300906c0d53ca961965</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-25 21:59:45</sys_updated_on>
+        <sys_updated_on>2019-01-31 22:36:07</sys_updated_on>
         <timeline_page/>
         <title>All Slide Projectors</title>
         <uncancelable>false</uncancelable>

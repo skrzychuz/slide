@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-25 21:28:42</sys_created_on>
-            <sys_id>38a2c8a4db532300906c0d53ca96199c</sys_id>
+            <sys_created_on>2019-01-31 21:12:57</sys_created_on>
+            <sys_id>68987692dbd32300906c0d53ca96192d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_306552_slide_pro_projector" sys_domain="global" view="Default view">fe2357c7db032300906c0d53ca9619eb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-25 21:28:42</sys_updated_on>
+            <sys_updated_on>2019-01-31 21:12:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_string_1</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-25 21:28:42</sys_created_on>
-            <sys_id>b8a2c8a4db532300906c0d53ca96199c</sys_id>
+            <sys_created_on>2019-01-31 21:12:57</sys_created_on>
+            <sys_id>20987692dbd32300906c0d53ca96192e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_306552_slide_pro_projector" sys_domain="global" view="Default view">fe2357c7db032300906c0d53ca9619eb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-25 21:28:42</sys_updated_on>
+            <sys_updated_on>2019-01-31 21:12:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,27 @@
             <element>u_string_2</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-25 21:28:42</sys_created_on>
-            <sys_id>3ca2c8a4db532300906c0d53ca96199c</sys_id>
+            <sys_created_on>2019-01-31 21:12:57</sys_created_on>
+            <sys_id>a0987692dbd32300906c0d53ca96192e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_306552_slide_pro_projector" sys_domain="global" view="Default view">fe2357c7db032300906c0d53ca9619eb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-25 21:28:42</sys_updated_on>
+            <sys_updated_on>2019-01-31 21:12:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owned_by</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 21:12:57</sys_created_on>
+            <sys_id>24987692dbd32300906c0d53ca96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_306552_slide_pro_projector" sys_domain="global" view="Default view">fe2357c7db032300906c0d53ca9619eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 21:12:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

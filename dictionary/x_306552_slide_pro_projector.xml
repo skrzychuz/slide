@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Projectors" max_length="40" name="x_306552_slide_pro_projector" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Rental List" max_length="1024" name="u_renal_list" reference="x_306552_slide_pro_rental" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript: gs.getUser().getCompanyID();" label="Company ID" max_length="40" name="u_owned_by" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_string_2" type="string">
             <choice>
@@ -11,6 +11,5 @@
                 <element inactive_on_update="false" label="Reserved" sequence="3" value="reserved"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="number" max_length="40" name="u_string_3" type="string"/>
     </element>
 </database>

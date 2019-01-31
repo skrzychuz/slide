@@ -28,7 +28,7 @@ while(gr.next()){
 	if(endDate <= rightNow) {
 		gr.u_status = 'overdue';
 		gs.eventQueue('x_306552_slide_pro.slide.projector regis',gr,gr.u_reference_1.sys_id ,gr.number);
-		gr.u_status = 'overdue';
+		
 	}
 	
 	//send notifications to users two days before the deadline.
@@ -41,14 +41,14 @@ while(gr.next()){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-26 22:01:03</sys_created_on>
         <sys_id>eca3d93cdb5f2300906c0d53ca9619dd</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>Slide Projector Reminder</sys_name>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
         <sys_update_name>sysauto_script_eca3d93cdb5f2300906c0d53ca9619dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-29 19:57:22</sys_updated_on>
+        <sys_updated_on>2019-01-30 21:33:27</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

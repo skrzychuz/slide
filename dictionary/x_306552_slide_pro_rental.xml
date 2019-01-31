@@ -5,7 +5,7 @@
         <element label="Rent end" mandatory="true" max_length="40" name="u_glide_date_4" type="glide_date"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="UserID" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="ProjectorID" mandatory="true" max_length="32" name="u_reference_2" reference="x_306552_slide_pro_projector" type="reference"/>
-        <element label="Return" max_length="40" name="u_return" type="glide_date_time"/>
+        <element label="Return Day" max_length="40" name="u_return_day" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Awaiting Approval" label="Status" max_length="40" name="u_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
@@ -18,7 +18,6 @@
                 <element inactive_on_update="false" label="Reservation" sequence="4" value="avreservation"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Note" max_length="40" name="u_string_3" type="string"/>
         <index name="index">
             <element name="u_reference_2"/>
         </index>

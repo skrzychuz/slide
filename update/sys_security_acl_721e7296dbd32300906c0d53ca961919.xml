@@ -4,22 +4,22 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description>Default access control on x_306552_slide_pro_rental</description>
-        <name>x_306552_slide_pro_rental</name>
+        <description/>
+        <name>x_306552_slide_pro_projector</name>
         <operation display_value="write">write</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-25 22:13:23</sys_created_on>
-        <sys_id>17dc846cdb532300906c0d53ca9619c9</sys_id>
+        <sys_created_on>2019-01-31 21:38:00</sys_created_on>
+        <sys_id>721e7296dbd32300906c0d53ca961919</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_306552_slide_pro_rental</sys_name>
+        <sys_name>x_306552_slide_pro_projector</sys_name>
         <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
         <sys_policy/>
         <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
-        <sys_update_name>sys_security_acl_17dc846cdb532300906c0d53ca9619c9</sys_update_name>
+        <sys_update_name>sys_security_acl_721e7296dbd32300906c0d53ca961919</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-25 22:13:23</sys_updated_on>
+        <sys_updated_on>2019-01-31 21:38:00</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

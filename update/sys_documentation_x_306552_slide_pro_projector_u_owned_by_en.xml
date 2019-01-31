@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_string_3" label="Note" language="en" table="x_306552_slide_pro_rental">
+    <sys_documentation element="u_owned_by" label="Company ID" language="en" table="x_306552_slide_pro_projector">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_string_3</element>
+            <element>u_owned_by</element>
             <help/>
             <hint/>
-            <label>Note</label>
+            <label>Company ID</label>
             <language>en</language>
-            <name>x_306552_slide_pro_rental</name>
-            <plural>Notes</plural>
+            <name>x_306552_slide_pro_projector</name>
+            <plural>Company IDs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-01-22 20:36:54</sys_created_on>
-            <sys_id>700ad06bdb032300906c0d53ca96194f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Note</sys_name>
+            <sys_created_on>2019-01-31 21:12:56</sys_created_on>
+            <sys_id>24983692dbd32300906c0d53ca9619ff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Company ID</sys_name>
             <sys_package display_value="Slide Projector" source="x_306552_slide_pro">ce411f03db032300906c0d53ca961975</sys_package>
             <sys_policy/>
             <sys_scope display_value="Slide Projector">ce411f03db032300906c0d53ca961975</sys_scope>
-            <sys_update_name>sys_documentation_x_306552_slide_pro_rental_u_string_3_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_306552_slide_pro_projector_u_owned_by_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-01-22 20:36:54</sys_updated_on>
+            <sys_updated_on>2019-01-31 21:22:20</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
